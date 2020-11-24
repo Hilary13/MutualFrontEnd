@@ -10,39 +10,70 @@
 
 <body>
 
+<form name = "Empleo" action="send.php" method="post">
+ <table width="600" border="1" cellspacing="2" cellpadding="2">
+    <tr>
+      <td>Employment Application</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Primer nombre: </td>
+      <td><input type="text" name= "fname" maxlength="50" /></td>
+    </tr>
+    <tr>
+      <td>Apellido: </td>
+      <td><input type="text" name= "lname" maxlength="50" /></td>
+    </tr>
+    <tr>
+      <td>Position</td>
+      <td>
+        <select name="position">  
+          <option value="RE">Receptionist</option>
+          <option value="LL"> The Love of my life</option>
+          <option value = "AD">Administrator</option>
+          <option value="SU">Supervisor</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Experience Level</td>
+      <td>
+        <select name="experience">  
+          <option value="HI">High</option>
+          <option value="ME"> Medium</option>
+          <option value = "LO">Low</option>
+        </select>
 
- <table width="600" border="3" borderColor="#335C67" cellspacing="2" cellpadding="2">
-    <tr>
-      <td>Juegos</td>
-      <td>Peliculas</td>
+      </td>
     </tr>
     <tr>
-      <td>PokemonY</td>
-      <td>Call me by your name</td>
+      <td>Job Type</td>
+      <td>
+        <input type="checkbox" name="ft"/>Full-Time
+        <input type="checkbox" name="pt"/>Part-Time
+        <input type="checkbox" name="ct"/>Contract
+       
+      </td>
     </tr>
     <tr>
-      <td>Star Wars: Fallen Order</td>
-      <td>Disobedience</td>
+      <td>Employment Status</td>
+      <td>
+        <input type="radio" name="estatus" value="employed"/>Employed
+        <input type="radio" name="estatus" value="unemployed"/>Unemployed
+        <input type="radio" name="estatus" value="student"/>Student
+      
+      </td>
     </tr>
     <tr>
-      <td>A Plague Tale: Innocence</td>
-      <td>Logan</td>
+      <td></td>
+      <td></td>
     </tr>
-    <tr>
-      <td>Pokemon Luna</td>
-      <td>Once Upon a Time in Hollywood</td>
-    </tr>
-    <tr>
-      <td>Hogwarts: Legacy</td>
-      <td>Klaus</td>
-    </tr>
-    <tr>
-      <td>CyberPunk 2077</td>
-      <td>I Choose you</td>
-    </tr>
-   
   </table>
-
+</form>
 
 </body>
 </html>
