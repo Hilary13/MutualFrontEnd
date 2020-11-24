@@ -2,14 +2,16 @@
 <html lang="en">
     <head>
         <title>IFRAME</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--para que la pagina no se despiche-->
     </head>
 
     <body>
         <iframe scr="http://www.google.com" width="100%" height="400">
-        <p>Su navegador no soporta Iframe</p>
-
-        <iframe scr="http://www.bing.com" width="100%" height="400">
-        <p>Su navegador no soporta Iframe</p>
+            <p>Su navegador no soporta Iframe</p>
+    
+            <iframe scr="http://www.bing.com" width="100%" height="400">
+            <p>Su navegador no soporta Iframe</p>
         
         </iframe>
     </body>
